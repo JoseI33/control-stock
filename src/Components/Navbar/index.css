@@ -1,0 +1,7 @@
+.nav-link {
+    transition: rgb(12, 240, 4) !important;
+}
+
+.nav-link:hover {
+    color: rgb(19, 241, 11) !important;
+}

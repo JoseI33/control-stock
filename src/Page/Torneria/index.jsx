@@ -1,7 +1,8 @@
 import { useState } from 'react';
 import './index.css'
+import Layout from '../../Components/Layout';
 
- const groups = [
+const groups = [
         {
           title: "Manitou - Tractoelevadores",
           items: [
@@ -72,17 +73,17 @@ import './index.css'
     ]
 
     const Torneria = () => {
-        const [selectedItem, setSelectedItem] = useState(null);
+      const [selectedItem, setSelectedItem] = useState(null);
       
-        const openModal = (item) => {
-          setSelectedItem(item);
-        };
+      const openModal = (item) => {
+        setSelectedItem(item);
+      };
       
-        const closeModal = () => {
-          setSelectedItem(null);
-        };
-      
-        return (
+      const closeModal = () => {
+        setSelectedItem(null);
+      };
+      return (
+        <Layout>
           <div className="container">
             {groups.map((group, index) => (
               <div key={index} className="group">
@@ -101,6 +102,7 @@ import './index.css'
                 </div>
               </div>
             ))}
+            
       
             {selectedItem && (
               <div className="modal-overlay" onClick={closeModal}>
@@ -113,7 +115,10 @@ import './index.css'
               </div>
             )}
           </div>
+        </Layout>
         );
       };
+
+      
 
 export default Torneria

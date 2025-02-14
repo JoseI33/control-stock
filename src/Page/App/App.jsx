@@ -1,4 +1,5 @@
 import { BrowserRouter, useRoutes } from "react-router-dom";
+import "bootstrap/dist/css/bootstrap.min.css"
 import Home from "../Home";
 import Contact from "../Contact";
 import Torneria from "../Torneria";
@@ -20,8 +21,8 @@ const AppRoutes = () => {
 const App = () => {
   return (
     <BrowserRouter>
-    <AppRoutes/>
     <NavBar/>
+    <AppRoutes/>
     </BrowserRouter>
   )
 }
