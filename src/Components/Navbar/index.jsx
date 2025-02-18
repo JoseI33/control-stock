@@ -16,6 +16,8 @@ const NavBar = () => {
                         <Nav.Link href="/horometro" className="text-white">Horometros</Nav.Link>
                         <Nav.Link href="/repuestos" className="text-white">Depósitos</Nav.Link>
                         <Nav.Link href="/torneria" className="text-white">Torneria</Nav.Link>
+                        <Nav.Link href="/pendientes" className="text-white">Pendientes</Nav.Link>
+                        <Nav.Link href="/estadisticas" className="text-white">Campaña</Nav.Link>
                     </Nav>
                     <Nav className="ms-auto" style={{ maxHeight: '100px' }} navbarScroll>
                         <Nav.Link href="/siginin" className="text-white">Inicia Sesión</Nav.Link>

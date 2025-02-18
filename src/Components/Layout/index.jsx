@@ -1,6 +1,8 @@
 import PropTypes from 'prop-types';
 import  Navbar  from '../Navbar'
 
+  
+
 const Layout = ({ children }) => {
     return (
       <>
@@ -9,7 +11,7 @@ const Layout = ({ children }) => {
           {children} {/* Ahora children está correctamente definido */}
         </div>
       </>
-    );
+            );
   };
 
   Layout.propTypes = {

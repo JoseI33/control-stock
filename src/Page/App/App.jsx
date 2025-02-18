@@ -5,6 +5,7 @@ import Contact from "../Contact";
 import Torneria from "../Torneria";
 import Notfound from "../Notfound"
 import NavBar from "../../Components/Navbar";
+import Footer from "../../Components/Layout/footer";
 
 const AppRoutes = () => {
       let routes = useRoutes ([
@@ -23,6 +24,7 @@ const App = () => {
     <BrowserRouter>
     <NavBar/>
     <AppRoutes/>
+    <Footer/>
     </BrowserRouter>
   )
 }
