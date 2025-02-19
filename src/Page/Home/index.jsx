@@ -65,7 +65,7 @@ const Home = () => {
                 <div className="card-body" style={{ backgroundColor: 'rgba(0, 0, 0, 0.6)', color: 'white' }}>
                   <h5 className="card-title text-center">Estadisticas</h5>
                   <p className="card-text">
-                    Muestra de campaña por temporada.
+                    Muestra de progreso de campaña por temporada.
                   </p>
                     <Link to="/torneria">
                   <Button variant="success">Ver mas...</Button>

@@ -20,6 +20,7 @@ const NavBar = () => {
                         <Nav.Link href="/estadisticas" className="text-white">Campaña</Nav.Link>
                     </Nav>
                     <Nav className="ms-auto" style={{ maxHeight: '100px' }} navbarScroll>
+                        <Nav.Link href="/siginin" className="text-white">Maquinarias</Nav.Link>
                         <Nav.Link href="/siginin" className="text-white">Inicia Sesión</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
